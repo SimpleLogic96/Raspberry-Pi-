@@ -5,7 +5,7 @@ target_name = raw_input('Enter target name: ')
 
 nearby_devices = bluetooth.discover_devices()
 
-for addr, name in nearboy_devices:
+for addr, name in nearby_devices:
 	if target_name == name:
 		target_address = addr
 		break
