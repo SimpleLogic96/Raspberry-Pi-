@@ -5,14 +5,14 @@ import time
 
 def check_nearby_devices():
         nearby_devices = []
-        while len(nearby_devices < 1)
+        while len(nearby_devices < 1):
             print('Searching for nearby devices')
             print('Searching for nearby devices.')
             print('Searching for nearby devices..')
             print('Searching for nearby devices...')
             nearby_devices = bluetooth.discover_devices(lookup_names = True)
 
-        
+
         print('We found ' + str(len(nearby_devices)) + ' devices around you.')
         break
 
