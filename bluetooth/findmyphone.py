@@ -3,7 +3,7 @@ import bluetooth
 target_name = raw_input('Enter target name: ')
 #target_address = raw_input('Enter target addr: ')
 
-nearby_devices = bluetooth.discover_devices()
+nearby_devices = bluetooth.discover_devices(lookupnames=True)
 
 for addr, name in nearby_devices:
 	if target_name == name:
