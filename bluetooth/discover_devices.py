@@ -4,7 +4,7 @@ import bluetooth
 import time
 
 def check_nearby_devices():
-
+        nearby_devices = []
         for x in range(4):
             if (len(nearby_devices) < 1):
                 nearby_devices = bluetooth.discover_devices(lookup_names = True, duration = 10)
