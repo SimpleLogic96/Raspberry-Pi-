@@ -7,8 +7,11 @@ def check_nearby_devices():
         nearby_devices = []
         while len(nearby_devices) < 1:
             print('Searching for nearby devices')
+            time.sleep(1)
             print('Searching for nearby devices.')
+            time.sleep(1)
             print('Searching for nearby devices..')
+            time.sleep(1)
             print('Searching for nearby devices...')
             nearby_devices = bluetooth.discover_devices(lookup_names = True)
 
