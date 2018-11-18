@@ -17,8 +17,8 @@ def check_nearby_devices():
                 print('Searching for nearby devices...')
                 time.sleep(1)
 
-    else:
-        print('We found ' + str(len(nearby_devices)) + ' devices around you.')
+            else:
+                print('We found ' + str(len(nearby_devices)) + ' devices around you.')
 
         for addr, name in nearby_devices:
             print(name + ': '+ addr)
