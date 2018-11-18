@@ -8,7 +8,7 @@ nearby_devices = bluetooth.discover_devices(lookup_names=True)
 for addr, name in nearby_devices:
 	if target_name == name:
 		target_address = addr
-		return target_address
 		break
+		return target_address
 
 print('The target address of ' + target_name + ' is ' + str(target_address))
