@@ -60,7 +60,7 @@ time.sleep(1)
 
 GPIO.output(11,True)
 GPIO.output(15,True)
-time.leep(2)
+time.sleep(2)
 
 GPIO.output(11,False)
 GPIO.output(15,False)
