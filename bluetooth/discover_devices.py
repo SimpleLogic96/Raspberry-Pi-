@@ -5,7 +5,7 @@ import time
 
 def check_nearby_devices():
         nearby_devices = []
-        while len(nearby_devices) < 2:
+        while len(nearby_devices) < 1:
             print('Searching for nearby devices')
             print('Searching for nearby devices.')
             print('Searching for nearby devices..')
