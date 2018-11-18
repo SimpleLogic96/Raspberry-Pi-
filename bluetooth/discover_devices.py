@@ -5,16 +5,16 @@ import time
 
 def check_nearby_devices():
         nearby_devices = []
-        for x in range(4):
-            if (len(nearby_devices) < 1):
-                nearby_devices = bluetooth.discover_devices(lookup_names = True)
-                print('Searching for nearby devices')
-                print('Searching for nearby devices.')
-                print('Searching for nearby devices..')
-                print('Searching for nearby devices...')
+        while len(nearby_devices < 1)
+            print('Searching for nearby devices')
+            print('Searching for nearby devices.')
+            print('Searching for nearby devices..')
+            print('Searching for nearby devices...')
+            nearby_devices = bluetooth.discover_devices(lookup_names = True)
 
-            else:
-                print('We found ' + str(len(nearby_devices)) + ' devices around you.')
+        
+        print('We found ' + str(len(nearby_devices)) + ' devices around you.')
+        break
 
         for addr, name in nearby_devices:
             print(name + ': '+ addr)
