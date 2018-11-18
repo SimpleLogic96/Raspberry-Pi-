@@ -17,7 +17,7 @@ GPIO.setup(11,GPIO.OUT)
 #Rear Right
 GPIO.setup(15,GPIO.OUT)
 
-
+'''
 #Test each motor:
 GPIO.output(7,True)
 print('Front left motor active')
@@ -66,4 +66,3 @@ GPIO.output(11,False)
 GPIO.output(15,False)
 
 GPIO.cleanup()
-'''
