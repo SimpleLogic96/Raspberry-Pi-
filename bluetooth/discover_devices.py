@@ -14,7 +14,6 @@ def check_nearby_devices():
 
 
         print('We found ' + str(len(nearby_devices)) + ' devices around you.')
-        break
 
         for addr, name in nearby_devices:
             print(name + ': '+ addr)
