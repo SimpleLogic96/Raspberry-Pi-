@@ -13,7 +13,7 @@ GPIO.setup(13,GPIO.OUT)
 
 #i/o pins for the rear wheels
 #Rear left
-GPIO.setup(11,GPIo.OUT)
+GPIO.setup(11,GPIO.OUT)
 #Rear Right
 GPIO.setup(15,GPIO.OUT)
 
