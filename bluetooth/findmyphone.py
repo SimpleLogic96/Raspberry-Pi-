@@ -1,15 +1,13 @@
-import bluetooth
+import bluetooth 
 
-target_name = 'iPhone'
-target_address = None
+target_name = raw_input('Enter target name: ')
+#target_address = raw_input('Enter target addr: ')
 
 nearby_devices = bluetooth.discover_devices()
 
-for addr in nearby_devices:
-	if target_name == bluetooth.lookup_name( aadr ):
+for addr, name in nearboy_devices:
+	if target_name == name:
 		target_address = addr
 		break
-if(target_address != None):
-	print('Found target bluetooth device with address: ' + str(target_address))
-else:
-	print("Couldn't find target bluetooth devices nearby")
+
+print('The target address of ' + target_name + ' is ' + str(target_address))
