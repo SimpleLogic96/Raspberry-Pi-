@@ -1,12 +1,17 @@
 Pi:  192.168.7.94
+	b8:27:eb:af:fb:bf
 MBP: 192.168.7.83
 	1e:00:28:88:d5:01 
 	F0:18:98:1E:55:A1
+	f0:18:98:12:b6:d3
 
 Google: 172.217.15.78
 
 Retropie: 192.168.7.94
 
+
+
+sudo apt-get install bluetooth
 
 
 pi
